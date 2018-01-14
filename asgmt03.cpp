@@ -48,7 +48,7 @@ static void searchStock(char const * const symbol)
 }
 
 // exercises HashMap::put() function. Creates an instance of Stock, hands that
-// to your code, and then totally destroys it. This makes sure that the code will
+// to the code, and then totally destroys it. This makes sure that the code will
 // fail unless there is a "deep copy" of the Stock instance.
 static void addStock(char *symbol, char *name, int sharePrice, Date priceDate)
 {
